@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aditya CS - Portfolio</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Syncopate&family=Chakra+Petch:wght@400;700&display=swap');
+
+        body {
+            font-family: 'Chakra Petch', sans-serif;
+            background: linear-gradient(135deg, #0d0d0d, #1a1a1a, #0d0d0d);
+            color: #00ffea;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: auto;
+        }
+        .wrapper {
+            width: 100%;
+            max-width: 1000px;
+            background-color: #1a1a1a;
+            border: 2px solid #00ffea;
+            box-shadow: 0 0 20px #00ffea;
+            overflow-y: auto;
+            overflow-x: hidden;
+            margin: 20px;
+            padding: 20px;
+        }
+        header {
+            background-color: #1a1a1a;
+            color: #00ffea;
+            padding: 2rem 0;
+            text-align: center;
+            border-bottom: 2px solid #00ffea;
+            box-shadow: 0 0 15px #00ffea;
+            font-family: 'Syncopate', sans-serif;
+        }
+        nav {
+            margin: 0;
+            padding: 1rem 0;
+            text-align: center;
+            background-color: #0d0d0d;
+            border-bottom: 1px solid #00ffea;
+            box-shadow: 0 0 15px #00ffea;
+        }
+        nav a {
+            color: #00ffea;
+            margin: 0 1rem;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s, text-shadow 0.3s;
+        }
+        nav a:hover {
+            color: #ff007f;
+            text-shadow: 0 0 5px #ff007f, 0 0 10px #ff007f;
+        }
+        .container {
+            width: 100%;
+            margin: 2rem auto;
+        }
+        .section {
+            margin-bottom: 2rem;
+        }
+        .section h2 {
+            border-bottom: 2px solid #00ffea;
+            padding-bottom: 0.5rem;
+            color: #ff007f;
+            text-shadow: 0 0 5px #ff007f, 0 0 10px #ff007f;
+            font-family: 'Syncopate', sans-serif;
+        }
+        .portfolio-item {
+            background-color: #1a1a1a;
+            border: 1px solid #00ffea;
+            border-radius: 5px;
+            padding: 1rem;
+            margin-bottom: 1rem;
+            transition: transform 0.3s, box-shadow 0.3s;
+            box-shadow: 0 0 10px #00ffea;
+        }
+        .portfolio-item:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 20px #00ffea;
+        }
+        .portfolio-item h3 {
+            margin-top: 0;
+            color: #ff007f;
+            text-shadow: 0 0 5px #ff007f, 0 0 10px #ff007f;
+            font-family: 'Syncopate', sans-serif;
+        }
+        .portfolio-item p {
+            margin-bottom: 0.5rem;
+            font-size: 18px; /* Adjust font size */
+        }
+        .portfolio-item a {
+            color: #00ffea;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s, text-shadow 0.3s;
+        }
+        .portfolio-item a:hover {
+            color: #ff007f;
+            text-shadow: 0 0 5px #ff007f, 0 0 10px #ff007f;
+        }
+        footer {
+            background-color: #1a1a1a;
+            color: #00ffea;
+            text-align: center;
+            padding: 1rem 0;
+            border-top: 2px solid #00ffea;
+            position: relative;
+            box-shadow: 0 0 15px #00ffea;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <h1>Aditya CS</h1>
+            <p>Student | Aspiring Developer | PES UNIVERSITY</p>
+        </header>
+        <nav>
+            <a href="#about">About Me</a>
+            <a href="#portfolio">Portfolio</a>
+        </nav>
+        <div class="container">
+            <section id="about" class="section">
+                <h2>About Me</h2>
+                <p>Hello! My name is Aditya CS. I am a student at PES UNIVERSITY with a passion for technology and development. I enjoy working on various projects that help me learn and grow in this field.</p>
+            </section>
+            <section id="portfolio" class="section">
+                <h2>Portfolio</h2>
+                <div class="portfolio-item">
+                    <h3>Tic Tac Toe</h3>
+                    <p>This project is a simple Tic Tac Toe game developed using Python. It allows two players to play the game and ensures all the rules of Tic Tac Toe are followed.</p>
+                    <a href="https://github.com/Aditya-C-S/TIC-TAC-TOE-GAME" target="_blank">View Project</a>
+                </div>
+                <div class="portfolio-item">
+                    <h3>To-Do List</h3>
+                    <p>This project is a To-Do List application developed using C Programming. It helps users manage their tasks efficiently by adding, editing, and deleting tasks as needed.</p>
+                    <a href="https://github.com/Aditya-C-S/TO-DO-List" target="_blank">View Project</a>
+                </div>
+            </section>
+        </div>
+        <footer>
+            <p>&copy; 2024 Aditya CS. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
